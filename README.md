@@ -14,13 +14,13 @@ For the Linux x86_64 target, the Quanser SDK for Linux supports the following Qu
 - Quanser QArm
 
 To install the Quanser SDK for Linux for the first time, run the following commands: 
-wget --no-cache https://repo.quanser.com/debian/release/config/configure_repo.sh
-chmod u+x configure_repo.sh
-./configure_repo.sh
-rm -f ./configure_repo.sh
-sudo apt update
-sudo apt-get install quanser-sdk
+- wget --no-cache https://repo.quanser.com/debian/release/config/configure_repo.sh
+- chmod u+x configure_repo.sh
+- ./configure_repo.sh
+- rm -f ./configure_repo.sh
+- sudo apt update
+- sudo apt-get install quanser-sdk
 
 To upgrade an existing Quanser SDK for Linux installation, run the following commands: 
-sudo apt update
-sudo apt-get upgrade quanser-sdk
+- sudo apt update
+- sudo apt-get upgrade quanser-sdk
