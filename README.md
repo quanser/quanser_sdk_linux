@@ -16,13 +16,13 @@ For the *Linux x86_64* target (e.g., Ubuntu PC), the *Quanser SDK for Linux* sup
 
 - [Quanser Qube-Servo 3](https://www.quanser.com/products/qube-servo-3/)
 - [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
-- [Quanser Aero 2](Quanser Aero 2)
+- [Quanser Aero 2](https://www.quanser.com/products/aero-2/)
 - [Quanser AERO](https://www.quanser.com/products/quanser-aero/)
 - [Quanser QArm](https://www.quanser.com/products/qarm/)
 
 
 
-If installing *Quanser SDK for Linux* for the first time, start by executing the following commands: 
+Before installing *Quanser SDK for Linux* for the very first time on a target, execute the following commands: 
 
 ```
 wget --no-cache https://repo.quanser.com/debian/release/config/configure_repo.sh
@@ -42,7 +42,7 @@ sudo apt-get install quanser-sdk
 
 
 
-The *Quanser SDK for Linux* documentation is also available through man pages.
+The *Quanser SDK for Linux* documentation is available through man pages.
 
 
 
