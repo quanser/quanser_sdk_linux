@@ -1,7 +1,7 @@
 # Quanser SDK for Linux
 This repository contains instructions for accessing the *Quanser SDK for Linux*, aimed at the 64-bit Linux operating system. 
 
-The [Quanser SDK](https://github.com/quanser/quanser_sdk) provides device drivers together with hardware interfacing, communication and vision libraries for aiding in application software development using Quanser hardware and virtual experiments.
+The [Quanser SDK](https://github.com/quanser/quanser_sdk) facilitates application software development using Quanser hardware and virtual experiments. It provides device drivers and various Application Programming Interfaces (API's) in C and Python together with hardware interfacing, communication and vision libraries.
 
 
 
