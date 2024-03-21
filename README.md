@@ -45,6 +45,11 @@ sudo apt-get install quanser-sdk
 ```
 
 
+To uninstall and remove *Quanser SDK for Linux*, run the following command:
+
+```
+sudo apt-get purge --auto-remove quanser-sdk
+```
 
 
 
