@@ -5,25 +5,43 @@ The [Quanser SDK](https://github.com/quanser/quanser_sdk) facilitates applicatio
 
 
 
-The *Quanser SDK for Linux* supports the following Linux targets: 
-- Linux x86_64 (e.g., Ubuntu PC)
-- [Quanser QBot Platform](https://www.quanser.com/products/qbot-platform/)
-- [Quanser QDrone 2](https://www.quanser.com/products/qdrone-2/)
+The *Quanser SDK for Linux* supports the following Debian-based Linux targets: 
+- Linux x86_64 (Ubuntu PC)
+- 64-bit Raspberry Pi OS (Raspberry Pi 4)
+- 32-bit Raspberry Pi OS (Raspberry Pi 3 or Raspberry Pi 4)
+- Nvidia Jetson Orin ([Quanser QBot Platform](https://www.quanser.com/products/qbot-platform/))
+- Nvidia Jetson Xavier ([Quanser QDrone 2](https://www.quanser.com/products/qdrone-2/))
 
 
 
-
-
-For the *Linux x86_64* target (e.g., Ubuntu PC), the *Quanser SDK for Linux* supports the following Quanser devices:
+On the *Linux x86_64* target (e.g., Ubuntu PC), the *Quanser SDK for Linux* supports the following Quanser devices:
 
 - [Quanser Qube-Servo 3](https://www.quanser.com/products/qube-servo-3/)
 - [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
 - [Quanser Aero 2](https://www.quanser.com/products/aero-2/)
 - [Quanser AERO](https://www.quanser.com/products/quanser-aero/)
 - [Quanser QArm](https://www.quanser.com/products/qarm/)
+- Quanser QArm Mini
 
+On the *64-bit Raspberry Pi OS* target (e.g., Raspberry Pi 4 board), the *Quanser SDK for Linux* supports the following Quanser devices:
+- [Quanser Qube-Servo 3](https://www.quanser.com/products/qube-servo-3/)
+- [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
+- [Quanser Aero 2](https://www.quanser.com/products/aero-2/)
+- [Quanser AERO](https://www.quanser.com/products/quanser-aero/)
+- [Quanser QArm](https://www.quanser.com/products/qarm/)
+- Quanser QArm Mini
 
+On the *32-bit Raspberry Pi OS* target (e.g., Raspberry Pi 3 or Raspberry Pi 4 board), the *Quanser SDK for Linux* supports the following Quanser devices:
+- [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
+- [Quanser Aero 2](https://www.quanser.com/products/aero-2/)
+- [Quanser AERO](https://www.quanser.com/products/quanser-aero/)
+- [Quanser QArm](https://www.quanser.com/products/qarm/)
+- Quanser QArm Mini
 
+On the *Nvidia Jetson Orin* target (e.g., Quanser QBot Platform), the *Quanser SDK for Linux* supports the following Quanser devices:
+- [Quanser Qube-Servo 3](https://www.quanser.com/products/qube-servo-3/)
+- [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
+- Quanser QArm Mini
 
 
 Before installing *Quanser SDK for Linux* for the very first time on a target, execute the following commands: 
