@@ -7,11 +7,10 @@ The [Quanser SDK](https://github.com/quanser/quanser_sdk) facilitates applicatio
 The *Quanser SDK for Linux* supports the following Debian-based Linux targets: 
 - 64-bit Ubuntu Linux PC/laptop (Linux x86_64)
 - 32-bit Raspberry Pi OS on a Raspberry Pi 4
-- Nvidia Jetson Orin ([Quanser QBot Platform](https://www.quanser.com/products/qbot-platform/))
+- Nvidia Jetson Orin boards (e.g., [Quanser QBot Platform](https://www.quanser.com/products/qbot-platform/))
 
 
-On the *Linux x86_64* target (e.g., 64-bit Ubuntu PC), the *Quanser SDK for Linux* supports the following Quanser devices:
-
+On the *Linux x86_64* target (e.g., 64-bit Ubuntu PC) and on the *32-bit Raspberry Pi OS* target running on a Raspberry Pi 4 board, the *Quanser SDK for Linux* supports the following Quanser devices:
 - [Quanser Qube-Servo 3](https://www.quanser.com/products/qube-servo-3/)
 - [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
 - [Quanser Aero 2](https://www.quanser.com/products/aero-2/)
@@ -20,15 +19,7 @@ On the *Linux x86_64* target (e.g., 64-bit Ubuntu PC), the *Quanser SDK for Linu
 - Quanser QArm Mini
 
 
-On the *32-bit Raspberry Pi OS* target running on a Raspberry Pi 4 board, the *Quanser SDK for Linux* supports the following Quanser devices:
-- [Quanser Qube-Servo 3](https://www.quanser.com/products/qube-servo-3/)
-- [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
-- [Quanser Aero 2](https://www.quanser.com/products/aero-2/)
-- [Quanser AERO](https://www.quanser.com/products/quanser-aero/)
-- [Quanser QArm](https://www.quanser.com/products/qarm/)
-- Quanser QArm Mini
-
-For the *Nvidia Jetson Orin* targets, refer to the instructions contained in the [README_Nvidia_Orin](./README_Nvidia_Orin.md) file.
+For the *Nvidia Jetson Orin* targets, refer to the specific instructions contained in the [Nvidia Orin README](./README_Nvidia_Orin.md) file.
 
 
 Before installing *Quanser SDK for Linux* for the very first time on a target, execute the following commands: 
