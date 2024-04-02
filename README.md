@@ -1,20 +1,16 @@
 # Quanser SDK for Linux
-This repository contains instructions for accessing the *Quanser SDK for Linux*, aimed at the 64-bit Linux operating system. 
+This repository contains instructions for accessing the *Quanser SDK for Linux*, aimed at various Linux operating systems. 
 
-The [Quanser SDK](https://github.com/quanser/quanser_sdk) facilitates application software development using Quanser hardware and virtual experiments. It provides device drivers and various Application Programming Interfaces (API's) in C and Python together with hardware interfacing, communication and vision libraries.
-
+The [Quanser SDK](https://github.com/quanser/quanser_sdk) facilitates application software development using Quanser hardware and virtual experiments. It provides device drivers and various Application Programming Interfaces (API's) in C and Python together with hardware interfacing and communication libraries.
 
 
 The *Quanser SDK for Linux* supports the following Debian-based Linux targets: 
-- Linux x86_64 (Ubuntu PC)
-- 64-bit Raspberry Pi OS (Raspberry Pi 4)
-- 32-bit Raspberry Pi OS (Raspberry Pi 3 or Raspberry Pi 4)
+- 64-bit Ubuntu Linux PC/laptop (Linux x86_64)
+- 32-bit Raspberry Pi OS on a Raspberry Pi 4
 - Nvidia Jetson Orin ([Quanser QBot Platform](https://www.quanser.com/products/qbot-platform/))
-- Nvidia Jetson Xavier ([Quanser QDrone 2](https://www.quanser.com/products/qdrone-2/))
 
 
-
-On the *Linux x86_64* target (e.g., Ubuntu PC), the *Quanser SDK for Linux* supports the following Quanser devices:
+On the *Linux x86_64* target (e.g., 64-bit Ubuntu PC), the *Quanser SDK for Linux* supports the following Quanser devices:
 
 - [Quanser Qube-Servo 3](https://www.quanser.com/products/qube-servo-3/)
 - [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
@@ -23,7 +19,8 @@ On the *Linux x86_64* target (e.g., Ubuntu PC), the *Quanser SDK for Linux* supp
 - [Quanser QArm](https://www.quanser.com/products/qarm/)
 - Quanser QArm Mini
 
-On the *64-bit Raspberry Pi OS* target (e.g., Raspberry Pi 4 board), the *Quanser SDK for Linux* supports the following Quanser devices:
+
+On the *32-bit Raspberry Pi OS* target running on a Raspberry Pi 4 board, the *Quanser SDK for Linux* supports the following Quanser devices:
 - [Quanser Qube-Servo 3](https://www.quanser.com/products/qube-servo-3/)
 - [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
 - [Quanser Aero 2](https://www.quanser.com/products/aero-2/)
@@ -31,17 +28,7 @@ On the *64-bit Raspberry Pi OS* target (e.g., Raspberry Pi 4 board), the *Quanse
 - [Quanser QArm](https://www.quanser.com/products/qarm/)
 - Quanser QArm Mini
 
-On the *32-bit Raspberry Pi OS* target (e.g., Raspberry Pi 3 or Raspberry Pi 4 board), the *Quanser SDK for Linux* supports the following Quanser devices:
-- [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
-- [Quanser Aero 2](https://www.quanser.com/products/aero-2/)
-- [Quanser AERO](https://www.quanser.com/products/quanser-aero/)
-- [Quanser QArm](https://www.quanser.com/products/qarm/)
-- Quanser QArm Mini
-
-On the *Nvidia Jetson Orin* target (e.g., Quanser QBot Platform), the *Quanser SDK for Linux* supports the following Quanser devices:
-- [Quanser Qube-Servo 3](https://www.quanser.com/products/qube-servo-3/)
-- [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
-- Quanser QArm Mini
+For the *Nvidia Jetson Orin* targets, refer to the instructions contained in the [README_Nvidia_Orin](./README_Nvidia_Orin.md) file.
 
 
 Before installing *Quanser SDK for Linux* for the very first time on a target, execute the following commands: 
@@ -66,7 +53,7 @@ sudo apt-get install quanser-sdk
 To uninstall and remove *Quanser SDK for Linux*, run the following command:
 
 ```
-sudo apt-get purge --auto-remove quanser-sdk
+sudo apt-get --auto-remove purge quanser-sdk
 ```
 
 
