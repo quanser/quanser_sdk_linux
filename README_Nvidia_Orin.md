@@ -2,6 +2,7 @@
 The *Quanser SDK for Linux on Nvidia Jetson Orin* supports the following Quanser devices:
 - [Quanser Qube-Servo 3](https://www.quanser.com/products/qube-servo-3/)
 - [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
+- [Quanser AERO](https://www.quanser.com/products/quanser-aero/)
 - Quanser QArm Mini
 
 

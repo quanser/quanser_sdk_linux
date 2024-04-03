@@ -5,9 +5,12 @@ The [Quanser SDK](https://github.com/quanser/quanser_sdk) facilitates applicatio
 
 
 The *Quanser SDK for Linux* supports the following Debian-based Linux targets: 
-- 64-bit Ubuntu Linux PC/laptop (Linux x86_64)
+- 64-bit Ubuntu Linux PC/laptop, i.e., Linux x86_64 target
 - 32-bit Raspberry Pi OS on a Raspberry Pi 4
 - Nvidia Jetson Orin boards (e.g., [Quanser QBot Platform](https://www.quanser.com/products/qbot-platform/))
+
+
+For the *Nvidia Jetson Orin* targets, refer to the specific instructions contained in the [Nvidia Orin README](./README_Nvidia_Orin.md) file.
 
 
 On the *Linux x86_64* target (e.g., 64-bit Ubuntu PC) and on the *32-bit Raspberry Pi OS* target running on a Raspberry Pi 4 board, the *Quanser SDK for Linux* supports the following Quanser devices:
@@ -17,9 +20,6 @@ On the *Linux x86_64* target (e.g., 64-bit Ubuntu PC) and on the *32-bit Raspber
 - [Quanser AERO](https://www.quanser.com/products/quanser-aero/)
 - [Quanser QArm](https://www.quanser.com/products/qarm/)
 - Quanser QArm Mini
-
-
-For the *Nvidia Jetson Orin* targets, refer to the specific instructions contained in the [Nvidia Orin README](./README_Nvidia_Orin.md) file.
 
 
 Before installing *Quanser SDK for Linux* for the very first time on a target, execute the following commands: 
