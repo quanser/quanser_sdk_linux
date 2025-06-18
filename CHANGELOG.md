@@ -11,6 +11,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Fixed
 
+## [25.0.4925] - 2025-06-17
+### Added
+- Support for Ubuntu 24.04 LTS 
+- In the Quanser Multimedia API, added capability of writing MP4 files
+
+### Changed
+- Ubuntu 22.04 LTS and Ubuntu 20.04 LTS are no longer supported 
+
+### Fixed
+- Support for Quanser Qube-Servo 3
+
+
 ## [24.0.4498] - 2024-04-16
 ### Added
 - Initial release of *Quanser SDK for Linux*
