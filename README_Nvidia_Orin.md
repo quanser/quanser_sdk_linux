@@ -4,6 +4,7 @@ The *Quanser SDK for Linux on Nvidia Jetson Orin* supports the following Quanser
 - [Quanser QUBE Servo 2 - USB](https://www.quanser.com/products/qube-servo-2/)
 - [Quanser AERO](https://www.quanser.com/products/quanser-aero/)
 - [Quanser QArm Mini](https://www.quanser.com/products/qarm-mini/)
+- [Quanser Mechatronic Actuators Trainer](https://www.quanser.com/products/mechatronic-actuators-trainer/)
 
 
 If using a Nvidia Jetson Orin Nano board (as on the [Quanser QBot Platform](https://www.quanser.com/products/qbot-platform/)) and installing the *Quanser SDK for Linux on Nvidia Jetson Orin* for the very first time on that target, execute the following commands: 
