@@ -15,7 +15,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 - Support for Raspberry Pi OS (64-bit) 
 - In the Quanser Devices API, added support for Keyboard in Linux environment
-- Support for Quanser Mechatronic Actuators Trainer for the Ubuntu x86_64 and Raspberry Pi OS (64-bit)
+- Support for Quanser Mechatronic Actuators Trainer for the Nvidia Jetson Orin, and Raspberry Pi OS (64-bit)
 
 ### Changed
 - Removed support for Raspberry Pi OS (32-bit)
