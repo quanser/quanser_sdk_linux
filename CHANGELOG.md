@@ -11,7 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Fixed
 
-## [25.1.5059] - 2025-10-29
+## [25.1.5062] - 2025-11-01
 ### Added
 - Support for Raspberry Pi OS (64-bit) 
 - In the Quanser Devices API, added support for Keyboard in Linux environment
