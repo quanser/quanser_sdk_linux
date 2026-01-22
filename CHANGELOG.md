@@ -11,6 +11,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Fixed
 
+## [26.0.5144] - 2026-01-15
+### Added
+- Support for Quanser Mechatronic Sensors Trainer for the Nvidia Jetson Orin, and Raspberry Pi OS (64-bit), but only as a prerelease.
+
+### Changed
+
+### Fixed
+
 ## [25.1.5062] - 2025-11-01
 ### Added
 - Support for Raspberry Pi OS (64-bit) 

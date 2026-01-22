@@ -5,15 +5,16 @@ The *Quanser SDK for Raspberry Pi OS (64-bit)* supports the following Quanser de
 - [Quanser AERO](https://www.quanser.com/products/quanser-aero/)
 - [Quanser QArm Mini](https://www.quanser.com/products/qarm-mini/)
 - [Quanser Mechatronic Actuators Trainer](https://www.quanser.com/products/mechatronic-actuators-trainer/)
+- [Quanser Mechatronic Sensors Trainer](https://www.quanser.com/products/mechatronic-sensors-trainer/)
 
 To setup a supported Raspberry Pi with Raspberry Pi OS (64-bit), follow the official [Raspberry Pi OS (64-bit)](https://www.raspberrypi.com/software/operating-systems/) instructions to install the operating system.
 
 To install the *Quanser SDK for Raspberry Pi OS (64-bit)* for the very first time on that target, execute the following commands: 
 ```
-wget --no-cache https://repo.quanser.com/debian/release/config/configure_raspbian64_repo.sh.sh
-chmod u+x configure_raspbian64_repo.sh.sh
-./configure_raspbian64_repo.sh.sh
-rm -f ./configure_raspbian64_repo.sh.sh
+wget --no-cache https://repo.quanser.com/debian/prerelease/config/configure_raspbian64_repo_prerelease.sh
+chmod u+x configure_raspbian64_repo_prerelease.sh
+./configure_raspbian64_repo_prerelease.sh
+rm -f ./configure_raspbian64_repo_prerelease.sh
 ```
 
 
