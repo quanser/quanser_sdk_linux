@@ -11,7 +11,7 @@ To setup a supported Raspberry Pi with Raspberry Pi OS (64-bit), follow the offi
 
 To install the *Quanser SDK for Raspberry Pi OS (64-bit)* for the very first time on that target, execute the following commands: 
 ```
-wget --no-cache https://repo.quanser.com/debian/prerelease/config/configure_raspbian64_repo.sh
+wget --no-cache https://repo.quanser.com/debian/release/config/configure_raspbian64_repo.sh
 chmod u+x configure_raspbian64_repo.sh
 ./configure_raspbian64_repo.sh
 rm -f ./configure_raspbian64_repo.sh
