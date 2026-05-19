@@ -11,6 +11,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Fixed
 
+## [1.26.133] - [26.0.5256] - 2026-05-19
+### Added
+- Support for CubeSat CPP for the Raspberry Pi OS (64-bit).
+
+### Changed
+
+### Fixed
+
 ## [1.26.015] - [26.0.5138] - 2026-01-15
 ### Added
 - Support for Quanser Mechatronic Sensors Trainer for the Nvidia Jetson Orin, and Raspberry Pi OS (64-bit), but only as a prerelease.
